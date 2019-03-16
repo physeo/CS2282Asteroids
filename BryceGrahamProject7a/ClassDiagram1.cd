@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BryceGrahamProject7a.AnimatedGraphic" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgEAAAAAQAIAAAEoAAEAIhAACAAAAAgAAAAAAIAA=</HashCode>
+      <FileName>AnimatedGraphic.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="individualFrames" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="BryceGrahamProject7a.Asteroid" Collapsed="true">
+    <Position X="5" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAACAAAAAQAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Asteroid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BryceGrahamProject7a.Constants" Collapsed="true">
+    <Position X="14" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAgAAAgAAAAAAAAAACACAAAQ=</HashCode>
+      <FileName>Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BryceGrahamProject7a.Debris" Collapsed="true">
+    <Position X="4.5" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAEAAAAAABAQAAAAAQAAEAAA=</HashCode>
+      <FileName>Debris.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BryceGrahamProject7a.Enemy" Collapsed="true">
+    <Position X="5" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAEAAAAAAAAAgAAgAAAIAAAA=</HashCode>
+      <FileName>Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BryceGrahamProject7a.EnemyShip" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAEgCAAQAAAIQAAAAAAAAEAAACAAAAAAIAEAAA=</HashCode>
+      <FileName>EnemyShip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BryceGrahamProject7a.Entity2D" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAIAIAgAAAAEAAAEQKBFEADGQAwAgACgEAkEEAFBBA=</HashCode>
+      <FileName>Entity2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BryceGrahamProject7a.Environment" Collapsed="true">
+    <Position X="1.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIIAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Environment.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="debrisField" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="BryceGrahamProject7a.GameManager" Collapsed="true">
+    <Position X="10.75" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AggAAMBEABABAAAAIAEAAECDAAACAABAAIIkIACBEIE=</HashCode>
+      <FileName>GameManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="entity2DList" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="BryceGrahamProject7a.Graphic" Collapsed="true">
+    <Position X="4.75" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAQAAAAAAAAIAAAAAEAAAQAAQAAAAkAAAAAA=</HashCode>
+      <FileName>Graphic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BryceGrahamProject7a.GUI" Collapsed="true">
+    <Position X="11.5" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACEAAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAAAIAAAA=</HashCode>
+      <FileName>GUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BryceGrahamProject7a.Laser" Collapsed="true">
+    <Position X="7.5" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAIAAAAAAAAAAAAEIAAAAAAIAAABAAABAEAAA=</HashCode>
+      <FileName>Laser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BryceGrahamProject7a.Level" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAIAAAAAAAAAEgBAAAAAABAAAAARAAAA=</HashCode>
+      <FileName>Level.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BryceGrahamProject7a.MainForm" Collapsed="true">
+    <Position X="14.25" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AGAAAAAgACAAAgAAAECUEAACCIAABAAAAQAAECQAAAA=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="gameManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BryceGrahamProject7a.PlayerShip" Collapsed="true">
+    <Position X="2.25" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAACBQAAAMAAAAAAAAAAAAQAAIIkAAA=</HashCode>
+      <FileName>PlayerShip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BryceGrahamProject7a.Scores" Collapsed="true">
+    <Position X="14.5" Y="4.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>BCAAABAAIAAAAQAgAQEIAACAJAAgCCAAAAAAAAACAAA=</HashCode>
+      <FileName>Scores.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BryceGrahamProject7a.Settings" Collapsed="true">
+    <Position X="11.5" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAIA=</HashCode>
+      <FileName>Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BryceGrahamProject7a.Sound" Collapsed="true">
+    <Position X="11.5" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAQCgAAAEACBgAAAAAAAAAgKACAEAIgAgAAAAAA=</HashCode>
+      <FileName>Sound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BryceGrahamProject7a.SpecialEffects" Collapsed="true">
+    <Position X="14.5" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAEAAAAQAQKIACAAIQQgAAAQAAIAABA=</HashCode>
+      <FileName>SpecialEffects.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BryceGrahamProject7a.UserControls" Collapsed="true">
+    <Position X="14.5" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAgAAAAAACAAAAAAAAAACAAAAACAAAAAAg=</HashCode>
+      <FileName>UserControls.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BryceGrahamProject7a.Voices" Collapsed="true">
+    <Position X="11.5" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAEAAACAQAAAAAAAQAAAIAAAAAgAAAAAAAAYI=</HashCode>
+      <FileName>Voices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BryceGrahamProject7a.Bomb" Collapsed="true">
+    <Position X="9.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Bomb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BryceGrahamProject7a.Missile" Collapsed="true">
+    <Position X="7.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Missile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BryceGrahamProject7a.LargeShip" Collapsed="true">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LargeShip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BryceGrahamProject7a.SmallShip" Collapsed="true">
+    <Position X="2.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SmallShip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BryceGrahamProject7a.TargetingSystem" Collapsed="true">
+    <Position X="11.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TargetingSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
